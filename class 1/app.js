@@ -1,46 +1,46 @@
-// ----- Variables ------
+// // ----- Variables ------
 // console.log("---CLASS 1-Part-1---");
 
-// => var, let, const => Keywords
+// // => var, let, const => Keywords
 
-// === VAR ===
+// // === VAR ===
 
-// => redeclaration in var is allowed
-// => reassignment in var is allowed
+// // => redeclaration in var is allowed
+// // => reassignment in var is allowed
 
 // var studentName = "hafsa"
 // var studentName = "ayesha"
 // studentName = "usman"
 // console.log(studentName);
 
-// === LET ===
+// // === LET ===
 
-// => redeclaration in let is not allowed
-// => reassignment in let is allowed
+// // => redeclaration in let is not allowed
+// // => reassignment in let is allowed
 
 // let color = "red"
 //  color = "green"
 // console.log(color);
 
-// === CONST ===
+// // === CONST ===
 
-// => redeclaration in const is not allowed
-// => reassignment in const is not allowed
+// // => redeclaration in const is not allowed
+// // => reassignment in const is not allowed
 
 // const fruit = "apple"
 // // fruit = "orange"
 // console.log(fruit);
 
 // ----- SCOPE -----
-// => {
-// =>   Block Scope
-// => }
+// // => {
+// // =>   Block Scope
+// // => }
 
-// Global Scope
+// // Global Scope
 
-// => var -- global/function scope
-// => function k ander agr variable bnaya to bahr access nhi kr skty
-// => baki if loop wagera main access kr sakty hain
+// // => var -- global/function scope
+// // => function k ander agr variable bnaya to bahr access nhi kr skty
+// // => baki if loop wagera main access kr sakty hain
 
 // function number() {
 //     var num = 10
@@ -57,12 +57,12 @@
 
 // console.log(user); // accessable
 
-// ----- DESTRUCTURING ------
+// // ----- DESTRUCTURING ------
 // console.log("---CLASS 1-Part-2---");
 
-// arrays
+// // ARRAYS
 
-// Destructuring    // Nested Desturucturing
+//                // Destructuring  // Nested Desturucturing
 // const fruits = ["apple", "mango", ["peach"]];
 
 // => let fruit1 = friut[0]
@@ -75,7 +75,7 @@
 // console.log(fruits);
 // console.log(fruit1);
 
-// objects
+// // OBJECTS
 
 // const person = {
 //   name: "hafsa",
@@ -87,7 +87,7 @@
 //   },
 // };
 
-// => let personName = person.name
+// // => let personName = person.name
 
 // let {
 //   city: myCity,
